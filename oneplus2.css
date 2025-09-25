@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+#container{
+    max-width: 100vw;
+    height: auto;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    border-bottom: 2px solid ghostwhite;
+    display: flex;
+    align-items: center;
+    
+}
+a{
+    color: black;
+    font-size: 16px;
+}
+.oneplusimg {
+    width: 80px;
+    height: auto;
+    margin-left: 53px;
+
+}
+.oneplusimg img {
+    width: 100%;
+    height: 70%;
+}
+ul{
+    margin-left: 170px;
+}
+li a{
+    text-decoration: none;    
+    position: relative;
+}
+ li{
+    font-size: 17px;
+    margin-left: 25px;  
+    margin-right: 10px;  
+    display: inline-block;
+   
+    
+}
+.icon {
+    margin-left: 100px;
+}
+i {
+    margin-left: 25px;
+}
+ a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 2px;
+    width:0;
+    left:0;
+    bottom: -14px;
+    transition: 0.3s;
+}
+ a:hover::after {
+    width: 100%;
+}
+
+.heading
+{position: absolute;
+    margin-top: 80px;
+    margin-left: 15px;
+    font-size: 25px;
+    }
+    .phtable .heading{
+        margin-top: -65px;
+        margin-left: 0px;
+    }
+    .ad .heading{
+        margin-top: 0px;
+    }
+
+
+.storeh{
+    background-color: white;
+    width : 100vw;
+    height: auto;
+    position: absolute;
+    display: none;
+    margin-right: 10px;
+    left: 0;
+    
+    top: 50px;
+
+}
+.a2{
+    background-color:white;
+    width : 100vw;
+    height: 600px;
+    position: absolute;
+    display: none;
+      left: 0;
+      top: 50px;
+      margin-right: 10px;
+}
+#sttable{
+    margin-left: 90px;
+    margin-top: -25px;
+    height: 400px;
+}
+.phtable{
+    margin-left: 110px;
+    height: 450px;
+    margin-top: 110px;
+    line-height: 30px;
+}
+.ad{
+    height: 550px;
+}
+.autable
+{
+    height: 420px; 
+    margin-left: 90px;
+    margin-top: 70px;
+}
+h6{
+    position: absolute;
+    margin-top:120px ;
+    margin-left:140px ;
+    font-size: 14px;
+    color: grey;
+    /* background-color: #ff3c78; */
+    
+}
+.h62{
+     position: absolute;
+    margin-top:350px ;
+    margin-left:140px ;
+    font-size: 14px;
+}
+.img {
+    width: 110px;
+    height: 100px;
+    background-color: rgba(215, 215, 213, 0.265);
+    margin-top: 10px;
+    text-align: center;
+    
+    margin-left: 20px;
+}
+img{
+    margin: auto;
+    width: 80%;
+    height: 95%;
+}
+ .st:hover>.storeh,.ph:hover>.phoneh,.tb:hover>.tab,.wr:hover>.wrbl,.audio:hover>.ad,.more:hover>.mr,.one:hover>.on,.Comunity:hover>.com,.support:hover>.sp{
+    display: block;
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.b2 {
+    float:right;
+    /* border-left: 2px solid gray; */
+    margin-top: 35px;
+    font-size: 20px;
+    width: 400px;
+    height: 300px;
+    line-height: 25px;
+    margin-left: 280px;
+    /* background-color: rgb(215, 146, 19); */
+}   
+.p2{
+    line-height: 25px;
+        font-size: 20px;
+    height: 350px;
+   /* background-color: #d3d0d1; */
+    margin-top: 50px;
+    margin-right: 70px;
+
+}
+.w2{
+    margin-left: 700px;
+}
+.au2{
+    margin-left: 0px;
+}
+.autable .img{
+  padding: 5px; 
+  line-height: 25px;
+   
+}
+ul {
+    /* border-left: 2px solid navajowhite; */
+}
+.signin{
+    display: none;
+    position: absolute;
+    height: 450px;
+    width: 340px;
+    right: 0;
+    background-color: white;font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    text-align: left;
+}
+.mg{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#logo:hover>.signin{
+    display: block;
+}
+.founder{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #ff3c78   ;
+    border-radius: 51%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 500px;   
+  
+}
+.abc{
+    font-size: 18px;
+   margin: 20px; 
+}
+.page{
+background-position: center;
+    background-size: cover;
+   /* border: 2px solid saddlebrown; */
+    width: 100vw;
+    height: 650px;
+    text-align: center;
+    font-size: 18px;
+}
+.pg1{
+     background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/HeroBanner_0922KV_Desktop.jpg" );
+}
+.pg2{
+    background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/HeroBanner_13s_Desktop.jpg");
+}
+
+.page img{
+    width: 100%;
+    height: 100%;
+}
+.pg3,.pg4{
+height: 500px;
+width: 100vw;
+display: flex;
+}
+.pbone{
+    background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_13_Desktop.jpg");
+}
+.pbtwo{
+background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_Nord5_Desktop.jpg");
+}
+.pbone,.pbtwo,.p4b1,.p4b2{
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+        width: 50%;
+        height: 99%;
+     background-color: aqua;
+
+    }
+    .p4b1{
+         background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_13R_Desktop.jpg");
+    }
+    .p4b2{
+        background-image: url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_NordCE5_Desktop.jpg");
+    }
+ #logo:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 2px;
+    width:0;
+    left:0;
+    bottom: -14px;
+    transition: 0.3s;
+}
+#logo{
+    position: relative;
+}
+ #logo:hover::after {
+    width: 100%;
+}
+/* scroll */
+.scroll-flex {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .scroll-flex div {
+    min-width: 600px;
+    height: 550px;
+    /* background: lightgreen; */
+    border-radius: 10px;
+    flex-shrink: 0; /* shrink na ho */
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+     background-position: center;
+    background-size: cover;
+  }
+   .scroll-flex div img{
+    width: 100%;
+    height: 100%;
+   }
+  .sf1{
+    background-image:url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_Nord4_Desktop.jpg") ;
+  }
+  .sf2{
+    background-image:url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_Pad3_Desktop.jpg") ;
+  }
+  .sf3{
+    background-image:url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_PadLite_Desktop.jpg") ;
+  }
+  .sf4{
+    background-image:url("https://www.oneplus.in/content/dam/oneplus/2025/in/home/0922/SecondaryBanner_Light_NordBuds3Pro_Desktop.jpg") ;
+  }
+  .toph{
+    margin-top: 40px;
+  }
+  input[type=button]{
+background-color: black;
+font-size: 17px;
+color: white;
+padding: 2px;
+border-radius: 20px;
+margin: 10px;
+  }
+  @media (min-width: 601px) and (max-width: 1024px) {
+  a{
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+    a{
+    display: none;
+    }
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+    #container{
+    max-width: 100vw;
+    height: auto;
+}
+header {
+    max-width: 100vw;
+    height: 50px;
+    background-color: white;
+    border-bottom: 2px solid ghostwhite;
+    display: flex;
+    align-items: center;
+    
+}
+.oneplusimg {
+    min-width:100px;
+    height: auto;
+    margin-left: 30px;
+
+}
+.oneplusimg img {
+    width: 100%;
+    height: 70%;
+}
+.icon{
+    margin-left:-100px;
+    display: flex;
+}
+
+}
+  
